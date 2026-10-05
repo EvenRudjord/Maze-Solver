@@ -25,13 +25,11 @@ Rute (abstract)
 
 Skriv inn startkoordinater som `<rad> <kolonne>`, for eksempel `1 1`. Skriv `-1` for å avslutte.
 
-Det ligger også en større testlabyrint i `testdata/stor_labyrint.txt`.
+Det ligger også en større testlabyrint i `labyrintTest.txt`.
 
 ## Om bruk av AI
 
 `LabyrintGUI.java` er generert med AI og er kun ment som visualisering av resultatet. Den er ikke en del av selve oppgaven. All logikk i `Labyrint`, `Rute`, `SortRute`, `HvitRute`, `Åpning`, `Koordinat` og `Main` er skrevet av meg.
-
-## Kjente begrensninger og hva jeg ville forbedret
 
 - **Søket finner alle utveier**, ikke bare den korteste, så kjøretiden vokser eksponentielt med antall løkker og åpne flater. Et BFS-søk ville funnet korteste vei direkte og mye mer effektivt.
 - Tilstand (`besokt`, `antSteg`) lagres på rutene og bør nullstilles mellom søk.
