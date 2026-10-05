@@ -23,13 +23,6 @@ Rute (abstract)
 
 ## Kjøre programmet
 
-Krever Java 16 eller nyere (på grunn av `record`).
-
-```
-javac -encoding UTF-8 src/*.java
-java -cp src Main testdata/labyrintTest.txt
-```
-
 Skriv inn startkoordinater som `<rad> <kolonne>`, for eksempel `1 1`. Skriv `-1` for å avslutte.
 
 Det ligger også en større testlabyrint i `testdata/stor_labyrint.txt`.
