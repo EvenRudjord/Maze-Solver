@@ -1,0 +1,11 @@
+# Kompilerte Java-filer
+*.class
+
+# Editor / IDE
+.vscode/
+.idea/
+*.iml
+
+# OS-filer
+.DS_Store
+Thumbs.db
