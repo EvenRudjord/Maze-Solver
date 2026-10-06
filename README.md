@@ -30,8 +30,3 @@ Det ligger en testlabyrint i `labyrintTest.txt`.
 ## Om bruk av AI
 
 `LabyrintGUI.java` er generert med AI og er kun ment som visualisering av resultatet. Den er ikke en del av selve oppgaven. All logikk i `Labyrint`, `Rute`, `SortRute`, `HvitRute`, `Åpning`, `Koordinat` og `Main` er skrevet av meg.
-
-- **Søket finner alle utveier**, ikke bare den korteste, så kjøretiden vokser eksponentielt med antall løkker og åpne flater. Et BFS-søk ville funnet korteste vei direkte og mye mer effektivt.
-- Tilstand (`besokt`, `antSteg`) lagres på rutene og bør nullstilles mellom søk.
-- Feltene bør gjøres `private` med tilgangsmetoder, og `Labyrint` bør kaste exceptions i stedet for å skrive ut og kalle `System.exit`.
-- Mangler enhetstester.
