@@ -25,7 +25,7 @@ Rute (abstract)
 
 Skriv inn startkoordinater som `<rad> <kolonne>`, for eksempel `1 1`. Skriv `-1` for å avslutte.
 
-Det ligger også en større testlabyrint i `labyrintTest.txt`.
+Det ligger en testlabyrint i `labyrintTest.txt`.
 
 ## Om bruk av AI
 
